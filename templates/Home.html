@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Simple Flask App</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <header class="  bg-dark shadow-sm sticky-top ">
+        <nav class=" container navbar  navbar-light px-5">
+            <a class="navbar-brand   link-danger fw-bold" href="/">Home</a>
+        </nav>
+    </header>
+    <section id="hero " class=" vh-90 mt-5  ">
+        <div class="container  p-5  h-100 d-flex flex-column justify-content-start align-items-center">
+            <div class="mb-5 d-flex flex-column">
+                <h1 class="display-4 mb-4 ">Welcome To <span class="fw-bold text-danger">User</span> Dashboard </h1>
+            </div>
+            <div class="border border-primary rounded p-4 ">
+                <h2 class=" fw-light mb-3">To View Your Dashboard hit End Point : /?username=YourName or </h2>
+                <form>
+                    <div class="form-group mb-3">
+                        <input type="text" class="form-control" name="username" id="username" placeholder="Enter Your Name Here">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
